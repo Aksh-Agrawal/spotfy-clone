@@ -1,0 +1,80 @@
+.border {
+  border: 2px solid rgb(102, 92, 92);
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+.justify {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.bg-black {
+  background-color: #000000;
+  color: white;
+}
+.invert {
+  filter: invert(1);
+}
+.space-betn {
+  justify-content: space-between;
+}
+.bg-grey {
+  background-color: #121212;
+}
+.rounded {
+  border-radius: 8px;
+}
+.m-1 {
+  margin: 5px;
+}
+.nav {
+  gap: 15px;
+}
+.nav i {
+  margin-top: 4px;
+}
+.p-1 {
+  padding-top: 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+}
+.card p {
+  font-size: 14px;
+}
+
+/* Styling for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Hide the scrollbar track */
+}
+/* #555 */
+::-webkit-scrollbar-thumb {
+  background: #121212; /* Color of the draggable part of the scrollbar */
+  border-radius: 10px; /* Curvature of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar when hovered */
+  /* #777; */
+}
+.close {
+  position: absolute;
+  left: 13.7rem;
+  top: 1.2rem;
+}
+
+.close img {
+  width: 30px;
+}
+.wrap {
+  flex-wrap: wrap;
+}

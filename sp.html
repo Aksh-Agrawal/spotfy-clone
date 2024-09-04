@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aksh's Spotify</title>
+  </head>
+  <link rel="stylesheet" href="css/sp.css" />
+  <link rel="stylesheet" href="css/utility.css" />
+  <link rel="stylesheet" href="css/forMedia.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+          <img class="invert" src="AllSvg/cross.svg" alt="cross" />
+        </div>
+        <div class="home m-1 bg-grey rounded p-1">
+          <div class="logo">
+            <img class="invert" width="100px" src="AllSvg/logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><i class="fa-solid fa-house"></i> Home</li>
+            <li><img src="AllSvg/search.svg" alt="Search" class="invert" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="heading">
+            <img class="invert" src="AllSvg/library.svg" alt="library" />
+
+            <h2>Library</h2>
+          </div>
+
+          <div class="song-list">
+            <ul>
+              <!-- <li>
+                <i class="fa-solid fa-music"></i>
+                <div class="info">
+                  <div>Song Name</div>
+                  <div>Artist Name</div>
+                </div>
+                <div class="playnow">
+                  <span>Play Now</span>
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="footer">
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Cookies</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">About Ads</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/accessibility/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Accessibility</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right rounded">
+        <div class="header">
+          <div class="nav flex">
+            <img class="invert burger" src="AllSvg/breger.svg" alt="" />
+            <i id="previous" class="fa-solid fa-chevron-left"></i>
+            <i id="next" class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="button">
+            <button class="sign-btn">Sign Up</button>
+            <button class="log-btn">Log in</button>
+          </div>
+        </div>
+        <div class="playlist">
+          <h1 class="head1">Spotify Playlist</h1>
+          <div class="cardContainer">
+            <div data-folder="Retro" class="card">
+              <div class="play">
+                <img class="" src="img-play1/logo play.png" alt="play" />
+              </div>
+              <img class="rounded" src="img-play1/1.png" alt="" />
+              <h2>Retro Version</h2>
+              <p>
+                "Get ready to groove to the timeless beats of yesterday's hits."
+              </p>
+            </div>
+
+            <div data-folder="BhuvanBam" class="card">
+              <div class="play">
+                <img class="" src="img-play1/logo play.png" alt="play" />
+              </div>
+              <img class="rounded" src="img-play1/2.png" alt="" />
+              <h2>Best Of Bhuvan</h2>
+              <p>
+                "Bhuvan Bam: a heartfelt tune that blends humor and emotion into every verse."
+              </p>
+            </div>
+
+            
+            <div data-folder="Rahgir" class="card">
+              <div class="play">
+                <img class="" src="img-play1/logo play.png" alt="play" />
+              </div>
+              <img class="rounded" src="img-play1/3.png" alt="" />
+              <h2>Best Of Rahgir</h2>
+              <p>
+                "Rahgir: a melody that captures the essence of a wanderer's soulful journey."
+              </p>
+            </div>
+
+          </div>
+          <div class="playbar">
+            <div class="seek-bar">
+              <div class="circle"></div>
+            </div>
+            <div class="above-bar">
+              <div class="song-info flex wrap"></div>
+              <div class="song-button">
+                <i class="previous fa-solid fa-backward-step"></i>
+                <img id="play" class="invert" src="AllSvg/play.svg" alt="" />
+                <i class="next fa-solid fa-forward-step"></i>
+              </div>
+              <div class="song-time"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/sp.js"></script>
+  </body>
+</html>
